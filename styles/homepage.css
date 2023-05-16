@@ -10,11 +10,11 @@
     --maincolor:#222;
     --primarycolor:#E95420;
     --secondarycolor:#E95420;
-    --tertiarycolor: #772953;
-    --sidebarbackground:#CCC;
+    --tertiarycolor: #b2b2b2;
+    --sidebarbackground:#564139;
     --linkcolor:#b71c1c;
     --linkcoloralternate:#f44336;
-    --white:#FFFFFF;
+    --white:#b2b2b2;
     --black:#000000;
 }
 
@@ -125,7 +125,7 @@ video {
 }
 
 a {
-    color: var(--secondarycolor);
+    color: var(--tertiarycolor);
 }
 
 .admonitionblock td.icon .icon-tip::before {

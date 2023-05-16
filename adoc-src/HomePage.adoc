@@ -16,20 +16,26 @@
 
 === BME VIK - Info:
 
-*** 1. félév
-*** 2. félév
-*** 3. félév
+*** https://example.com[*1. félév*]
+*** https://example.com[*2. félév*]
+*** https://example.com[*3. félév*]
+
+'''
 
 === Kiegészítők
 
-* Klasszikus 1.5.1-es FTB Launcher
+* *Klasszikus 1.5.1-es FTB Launcher*
+
+'''
 
 === Kollégák
 
-* *~bodand*
-* *~borbely*
-* *~fiak*
-* *~kolos*
+* https://kszi2.hu/~bodand[*bodand*]
+* https://kszi2.hu/~borbely[*borbely*]
+* https://kszi2.hu/~fiak[*fiak*]
+* https://kszi2.hu/~kolos[*kolos*]
+
+'''
 
 === Megjegyzés
 
