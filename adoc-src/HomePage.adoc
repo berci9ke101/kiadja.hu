@@ -1,0 +1,37 @@
+:title: berci9ke101
+:author: Kovács Bertalan
+:authorinitials: KB
+:favicon: ../src/favicon.ico
+:stylesheet: ../styles/homepage.css
+
+= *berci9ke101*
+
+.*"Mégis mi fér bele egy zenedobozba?"*
+****
+****
+
+== Életfilozófiám: "Kib@szott agilis vagyok"
+
+'''
+
+=== BME VIK - Info:
+
+*** 1. félév
+*** 2. félév
+*** 3. félév
+
+=== Kiegészítők
+
+* Klasszikus 1.5.1-es FTB Launcher
+
+=== Kollégák
+
+* *~bodand*
+* *~borbely*
+* *~fiak*
+* *~kolos*
+
+=== Megjegyzés
+
+[.text-center]
+"A very important precaution for the underground chemist is to keep his mouth shut."

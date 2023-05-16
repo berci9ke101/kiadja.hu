@@ -1,0 +1,186 @@
+/* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
+/* modified colors for a TokyoNight-ish scheme */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url(https://cdn.jsdelivr.net/gh/asciidoctor/asciidoctor@2.0/data/stylesheets/asciidoctor-default.css); /* Default asciidoc style framework - important */
+
+/* CUSTOMISATIONS */
+/* Change the values in root for quick customisation. If you want even more fine grain... venture further. */
+:root {
+    --maincolor:#222;
+    --primarycolor:#E95420;
+    --secondarycolor:#E95420;
+    --tertiarycolor: #772953;
+    --sidebarbackground:#CCC;
+    --linkcolor:#b71c1c;
+    --linkcoloralternate:#f44336;
+    --white:#FFFFFF;
+    --black:#000000;
+}
+
+.literalblock pre,
+.listingblock > .content > pre:not(.highlight),
+.listingblock > .content > pre[class="highlight"],
+.listingblock > .content > pre[class^="highlight "] {
+    background: var(--sidebarbackground) !important;
+}
+
+.exampleblock > .content {
+    border-color: #515478 !important;
+    box-shadow: 0 1px 4px #515478 !important;
+}
+
+/* Item listing */
+.hdlist1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-date {
+    font-style: italic;
+}
+
+/* Text styles */
+
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: var(--maincolor);
+    color: var(--white);
+}
+
+h1 {
+    color: var(--primarycolor) !important;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+    color: var(--secondarycolor) !important;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.title {
+    color: var(--white) !important;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+p {
+    font-family: "IBM Plex Sans", sans-serif ! important
+}
+
+#toc.toc2 a:link {
+    color: var(--linkcolor);
+}
+
+blockquote {
+    color: var(--tertiarycolor) !important
+}
+
+.quoteblock {
+    color: var(--white)
+}
+
+code {
+    color: var(--linkcoloralternate);
+    background-color: var(--sidebarbackground) !important
+}
+
+
+/* Table styles */
+th {
+    background-color: var(--maincolor);
+    color: var(--primarycolor) !important;
+    font-weight: bold;
+    font-size: larger !important;
+}
+
+td {
+    background-color: var(--maincolor);
+    color: var(--white) !important
+}
+
+#toc.toc2 {
+    background-color: var(--sidebarbackground);
+}
+
+#toctitle {
+    color: var(--white);
+}
+
+/* Responsiveness fixes */
+video {
+    max-width: 100%;
+}
+
+@media all and (max-width: 600px) {
+    table {
+        width: 55vw !important;
+        font-size: 3vw;
+    }
+}
+
+.exampleblock > .content {
+    background-color: var(--maincolor);
+}
+
+a {
+    color: var(--secondarycolor);
+}
+
+.admonitionblock td.icon .icon-tip::before {
+    text-shadow: none;
+    color: var(--white);
+}
+
+.admonitionblock td.icon .icon-note::before {
+    color: var(--tertiarycolor);
+}
+
+.admonitionblock td.icon .icon-important::before {
+    color: var(--linkcolor);
+}
+
+/*.admonitionblock td.icon .icon-caution::before {
+  color: var(--linkcoloralternate);
+}*/
+.admonitionblock td.icon .icon-warning::before {
+    color: var(--primarycolor);
+}
+
+#preamble > .sectionbody > .paragraph:first-of-type p {
+    color: var(--white);
+}
+
+.quoteblock blockquote::before {
+    color: var(--primarycolor);
+}
+
+.quoteblock .attribution cite, .verseblock .attribution cite {
+    color: var(--white);
+}
+
+.verseblock pre {
+    color: var(--white);
+}
+
+.quoteblock blockquote, .quoteblock blockquote p {
+    color: var(--white);
+}
+
+.sidebarblock {
+    background: var(--sidebarbackground);
+}
+
+.literalblock pre, .listingblock pre:not(.highlight), .listingblock pre[class="highlight"], .listingblock pre[class^="highlight "], .listingblock pre.CodeRay, .listingblock pre.prettyprint {
+    background: var(--sidebarbackground);
+    color: var(--white);
+}
+
+#header .details {
+    color: var(--white);
+}
+
+#header .details span.email a {
+    color: var(--linkcoloralternate);
+}
