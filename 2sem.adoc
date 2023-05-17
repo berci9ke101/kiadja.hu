@@ -1,0 +1,43 @@
+:title: Második félév
+:doctype: book
+:favicon: ./src/favicon.ico
+:stylesheet: ./src/styles/base.css
+
+//links
+:homepage: link:./index.html
+:1sem: link:./1sem.html
+:2sem: link:./2sem.html
+:3sem: link:./3sem.html
+:gh: link:https://github.com/berci9ke101/outofmymind
+:szga: link:./src/2sem/szga.pdf
+:szga_gyak: link:http://www.hit.bme.hu/~ghorvath/szgarch/gyakorlo/
+:remo: link:./src/2sem/REMO.pdf
+:bsz: link:./src/2sem/bsz.pdf
+:fiz: link:./src/2sem/fizika.pdf
+:tasi: link:https://math.bme.hu/~tasnadi/merninf_anal_2/an2_elm.pdf
+:electro: link:./src/2sem/classical_electrodynamics.pdf
+
+
+[cols ="^1,^1,^1,^1",frame="none",grid="none"]
+|===
+|{homepage}[*🏠Főoldal*]
+|{1sem}[*1️⃣Első félév*]
+|{2sem}[*2️⃣Második félév*]
+|{3sem}[*3️⃣Harmadik félév*]
+|===
+
+= *Info második félév (2)*
+
+=== Kontribúciók:
+
+* {gh}[*Prog2 nagyházim (github)*]
+* {szga}[*Számítógép Architektúrák összefűzve - Horváth Gábor fóliái*]
+* {szga_gyak}[*Számítógép Architektúrák Gyakorló - Horváth Gábor jóvoltából*]
+* {remo}[*Rendszermodellezés jegyzet összefűzve*]
+* {bsz}[*BSZ2 ZH tételösszefoglaló*]
+* {fiz}[*Fizika2i ZH függvénytábla kiegészítő*]
+
+=== Olvasmányok:
+
+* {tasi}[*Fritzné, Kónya, Pataki, Tasnádi - Matematika 2.*]
+* {electro}[*John David Jackson - Classical Electrodynamics (3. kiadás)*]

@@ -1,0 +1,34 @@
+:title: Második félév
+:doctype: book
+:favicon: ./src/favicon.ico
+:stylesheet: ./src/styles/base.css
+
+//links
+:homepage: link:./index.html
+:1sem: link:./1sem.html
+:2sem: link:./2sem.html
+:3sem: link:./3sem.html
+:gh: link:https://github.com/berci9ke101/spark
+:kodtech: link:./src/3sem/tomor.pdf
+:vsz: link:./src/3sem/eddigi_vizsga-elm.pdfd
+
+
+[cols ="^1,^1,^1,^1",frame="none",grid="none"]
+|===
+|{homepage}[*🏠Főoldal*]
+|{1sem}[*1️⃣Első félév*]
+|{2sem}[*2️⃣Második félév*]
+|{3sem}[*3️⃣Harmadik félév*]
+|===
+
+= *Info második félév (2)*
+
+=== Kontribúciók:
+
+* {gh}[*Prog3 nagyházim (github)*]
+* {kodtech}[*Kódtech 1. ZH (tömör)*]
+* {vsz}[*Valszám vizsga eddigi elmélet*]
+
+=== Olvasmány:
+
+*

@@ -1,4 +1,4 @@
-:title: berci9ke101 - Első félév
+:title: Első félév
 :doctype: book
 :favicon: ./src/favicon.ico
 :stylesheet: ./src/styles/base.css
