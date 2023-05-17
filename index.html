@@ -6,395 +6,225 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.18">
 <meta name="author" content="Kovács Bertalan">
-<link rel="icon" type="image/x-icon" href="src/favicon.ico">
+<link rel="icon" type="image/x-icon" href="./src/favicon.ico">
 <title>berci9ke101</title>
 <style>
-/* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
-
-/* modified colors for a TokyoNight-ish scheme */
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
-
-@import url(https://cdn.jsdelivr.net/gh/asciidoctor/asciidoctor@2.0/data/stylesheets/asciidoctor-default.css); /* Default asciidoc style framework - important */
-
-
-
-/* CUSTOMISATIONS */
-
-/* Change the values in root for quick customisation. If you want even more fine grain... venture further. */
-
-:root {
-
-    --maincolor:#222;
-
-    --primarycolor:#E95420;
-
-    --secondarycolor:#E95420;
-
-    --tertiarycolor: #b2b2b2;
-
-    --sidebarbackground:#564139;
-
-    --linkcolor:#b71c1c;
-
-    --linkcoloralternate:#f44336;
-
-    --white:#b2b2b2;
-
-    --black:#000000;
-
-}
-
-
-
-.literalblock pre,
-
-.listingblock > .content > pre:not(.highlight),
-
-.listingblock > .content > pre[class="highlight"],
-
-.listingblock > .content > pre[class^="highlight "] {
-
-    background: var(--sidebarbackground) !important;
-
-}
-
-
-
-.exampleblock > .content {
-
-    border-color: #515478 !important;
-
-    box-shadow: 0 1px 4px #515478 !important;
-
-}
-
-
-
-/* Item listing */
-
-.hdlist1 {
-
-    display: flex;
-
-    justify-content: space-between;
-
-}
-
-
-
-.item-date {
-
-    font-style: italic;
-
-}
-
-
-
-/* Text styles */
-
-
-
-body {
-
-    font-family: "IBM Plex Sans", sans-serif;
-
-    background-color: var(--maincolor);
-
-    color: var(--white);
-
-}
-
-
-
-h1 {
-
-    color: var(--primarycolor) !important;
-
-    font-family: "IBM Plex Sans", sans-serif;
-
-}
-
-
-
-h2, h3, h4, h5, h6 {
-
-    color: var(--secondarycolor) !important;
-
-    font-family: "IBM Plex Sans", sans-serif;
-
-}
-
-
-
-.title {
-
-    color: var(--white) !important;
-
-    font-family: "IBM Plex Sans", sans-serif;
-
-    font-style: normal;
-
-    font-weight: normal;
-
-}
-
-
-
-p {
-
-    font-family: "IBM Plex Sans", sans-serif ! important
-
-}
-
-
-
-#toc.toc2 a:link {
-
-    color: var(--linkcolor);
-
-}
-
-
-
-blockquote {
-
-    color: var(--tertiarycolor) !important
-
-}
-
-
-
-.quoteblock {
-
-    color: var(--white)
-
-}
-
-
-
-code {
-
-    color: var(--linkcoloralternate);
-
-    background-color: var(--sidebarbackground) !important
-
-}
-
-
-
-
-
-/* Table styles */
-
-th {
-
-    background-color: var(--maincolor);
-
-    color: var(--primarycolor) !important;
-
-    font-weight: bold;
-
-    font-size: larger !important;
-
-}
-
-
-
-td {
-
-    background-color: var(--maincolor);
-
-    color: var(--white) !important
-
-}
-
-
-
-#toc.toc2 {
-
-    background-color: var(--sidebarbackground);
-
-}
-
-
-
-#toctitle {
-
-    color: var(--white);
-
-}
-
-
-
-/* Responsiveness fixes */
-
-video {
-
-    max-width: 100%;
-
-}
-
-
-
-@media all and (max-width: 600px) {
-
-    table {
-
-        width: 55vw !important;
-
-        font-size: 3vw;
-
-    }
-
-}
-
-
-
-.exampleblock > .content {
-
-    background-color: var(--maincolor);
-
-}
-
-
-
-a {
-
-    color: var(--tertiarycolor);
-
-}
-
-
-
-.admonitionblock td.icon .icon-tip::before {
-
-    text-shadow: none;
-
-    color: var(--white);
-
-}
-
-
-
-.admonitionblock td.icon .icon-note::before {
-
-    color: var(--tertiarycolor);
-
-}
-
-
-
-.admonitionblock td.icon .icon-important::before {
-
-    color: var(--linkcolor);
-
-}
-
-
-
-/*.admonitionblock td.icon .icon-caution::before {
-
-  color: var(--linkcoloralternate);
-
-}*/
-
-.admonitionblock td.icon .icon-warning::before {
-
-    color: var(--primarycolor);
-
-}
-
-
-
-#preamble > .sectionbody > .paragraph:first-of-type p {
-
-    color: var(--white);
-
-}
-
-
-
-.quoteblock blockquote::before {
-
-    color: var(--primarycolor);
-
-}
-
-
-
-.quoteblock .attribution cite, .verseblock .attribution cite {
-
-    color: var(--white);
-
-}
-
-
-
-.verseblock pre {
-
-    color: var(--white);
-
-}
-
-
-
-.quoteblock blockquote, .quoteblock blockquote p {
-
-    color: var(--white);
-
-}
-
-
-
-.sidebarblock {
-
-    background: var(--sidebarbackground);
-
-}
-
-
-
-.literalblock pre, .listingblock pre:not(.highlight), .listingblock pre[class="highlight"], .listingblock pre[class^="highlight "], .listingblock pre.CodeRay, .listingblock pre.prettyprint {
-
-    background: var(--sidebarbackground);
-
-    color: var(--white);
-
-}
-
-
-
-#header .details {
-
-    color: var(--white);
-
-}
-
-
-
-#header .details span.email a {
-
-    color: var(--linkcoloralternate);
-
+/* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
+/* modified colors for a TokyoNight-ish scheme */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url(https://cdn.jsdelivr.net/gh/asciidoctor/asciidoctor@2.0/data/stylesheets/asciidoctor-default.css); /* Default asciidoc style framework - important */
+
+/* CUSTOMISATIONS */
+/* Change the values in root for quick customisation. If you want even more fine grain... venture further. */
+:root {
+    --maincolor:#222;
+    --primarycolor:#E95420;
+    --secondarycolor:#E95420;
+    --tertiarycolor: #b2b2b2;
+    --sidebarbackground:#564139;
+    --linkcolor:#b71c1c;
+    --linkcoloralternate:#f44336;
+    --white:#b2b2b2;
+    --black:#000000;
+}
+
+.literalblock pre,
+.listingblock > .content > pre:not(.highlight),
+.listingblock > .content > pre[class="highlight"],
+.listingblock > .content > pre[class^="highlight "] {
+    background: var(--sidebarbackground) !important;
+}
+
+.exampleblock > .content {
+    border-color: #515478 !important;
+    box-shadow: 0 1px 4px #515478 !important;
+}
+
+/* Item listing */
+.hdlist1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-date {
+    font-style: italic;
+}
+
+/* Text styles */
+
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: var(--maincolor);
+    color: var(--white);
+}
+
+h1 {
+    color: var(--primarycolor) !important;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+    color: var(--secondarycolor) !important;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.title {
+    color: var(--white) !important;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+p {
+    font-family: "IBM Plex Sans", sans-serif ! important;
+}
+
+#toc.toc2 a:link {
+    color: var(--linkcolor);
+}
+
+blockquote {
+    color: var(--tertiarycolor) !important
+}
+
+.quoteblock {
+    color: var(--white)
+}
+
+code {
+    color: var(--linkcoloralternate);
+    background-color: var(--sidebarbackground) !important
+}
+
+
+/* Table styles */
+th {
+    background-color: var(--maincolor);
+    color: var(--primarycolor) !important;
+    font-weight: bold;
+    font-size: larger !important;
+}
+
+td {
+    background-color: var(--maincolor);
+    color: var(--white) !important;
+    font-size: x-large !important;
+}
+
+#toc.toc2 {
+    background-color: var(--sidebarbackground);
+}
+
+#toctitle {
+    color: var(--white);
+}
+
+/* Responsiveness fixes */
+video {
+    max-width: 100%;
+}
+
+@media all and (max-width: 600px) {
+    table {
+        width: 55vw !important;
+        font-size: 3vw;
+    }
+}
+
+.exampleblock > .content {
+    background-color: var(--maincolor);
+}
+
+a {
+    color: var(--tertiarycolor);
+}
+
+.admonitionblock td.icon .icon-tip::before {
+    text-shadow: none;
+    color: var(--white);
+}
+
+.admonitionblock td.icon .icon-note::before {
+    color: var(--tertiarycolor);
+}
+
+.admonitionblock td.icon .icon-important::before {
+    color: var(--linkcolor);
+}
+
+/*.admonitionblock td.icon .icon-caution::before {
+  color: var(--linkcoloralternate);
+}*/
+.admonitionblock td.icon .icon-warning::before {
+    color: var(--primarycolor);
+}
+
+#preamble > .sectionbody > .paragraph:first-of-type p {
+    color: var(--white);
+}
+
+.quoteblock blockquote::before {
+    color: var(--primarycolor);
+}
+
+.quoteblock .attribution cite, .verseblock .attribution cite {
+    color: var(--white);
+}
+
+.verseblock pre {
+    color: var(--white);
+}
+
+.quoteblock blockquote, .quoteblock blockquote p {
+    color: var(--white);
+}
+
+.sidebarblock {
+    background: var(--sidebarbackground);
+}
+
+.literalblock pre, .listingblock pre:not(.highlight), .listingblock pre[class="highlight"], .listingblock pre[class^="highlight "], .listingblock pre.CodeRay, .listingblock pre.prettyprint {
+    background: var(--sidebarbackground);
+    color: var(--white);
+}
+
+#header .details {
+    color: var(--white);
+}
+
+#header .details span.email a {
+    color: var(--linkcoloralternate);
 }
 </style>
 </head>
-<body class="article">
+<body class="book">
 <div id="header">
-<h1><strong>berci9ke101</strong></h1>
-<div class="details">
-<span id="author" class="author">Kovács Bertalan</span><br>
-</div>
 </div>
 <div id="content">
 <div id="preamble">
 <div class="sectionbody">
-<div class="paragraph">
-<p>Press the <b class="button">OK</b> button when you are finished.</p>
+<table class="tableblock frame-none grid-none stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><a href="./index.html"><strong>🏠Főoldal</strong></a></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><a href="./1sem.html"><strong>1️⃣Első félév</strong></a></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><a href="./2sem.html"><strong>2️⃣Második félév</strong></a></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><a href="./3sem.html"><strong>3️⃣Harmadik félév</strong></a></p></td>
+</tr>
+</tbody>
+</table>
 </div>
+</div>
+<h1 id="_berci9ke101" class="sect0"><strong>berci9ke101</strong></h1>
+<div class="openblock partintro">
+<div class="content">
 <div class="sidebarblock">
 <div class="content">
 <div class="title"><strong>"Mégis mi fér bele egy zenedobozba?"</strong></div>
@@ -404,7 +234,7 @@ a {
 </div>
 </div>
 <div class="sect1">
-<h2 id="_életfilozófiám_kibszott_agilis_vagyok">Életfilozófiám: "Kib@szott agilis vagyok"</h2>
+<h2 id="_életfilozófiám_kibszott_agilis_vagyok">Életfilozófiám: <code>"Kib@szott agilis vagyok"</code></h2>
 <div class="sectionbody">
 <hr>
 <div class="sect2">
@@ -412,13 +242,13 @@ a {
 <div class="ulist">
 <ul>
 <li>
-<p><a href="https://example.com"><strong>1. félév</strong></a></p>
+<p><a href="./1sem.html"><strong>1. félév</strong></a></p>
 </li>
 <li>
-<p><a href="https://example.com"><strong>2. félév</strong></a></p>
+<p><a href="./2sem.html"><strong>2. félév</strong></a></p>
 </li>
 <li>
-<p><a href="https://example.com"><strong>3. félév</strong></a></p>
+<p><a href="./3sem.html"><strong>3. félév</strong></a></p>
 </li>
 </ul>
 </div>
@@ -429,7 +259,7 @@ a {
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Klasszikus 1.5.1-es FTB Launcher</strong></p>
+<p><a href="./src/homepage/FTB_Launcher.exe"><strong>Klasszikus 1.5.1-es FTB Launcher</strong></a></p>
 </li>
 </ul>
 </div>
@@ -440,16 +270,16 @@ a {
 <div class="ulist">
 <ul>
 <li>
-<p><a href="https://kszi2.hu/~bodand"><strong>bodand</strong></a></p>
+<p><a href="https://kszi2.hu/~bodand"><strong>~bodand</strong></a></p>
 </li>
 <li>
-<p><a href="https://kszi2.hu/~borbely"><strong>borbely</strong></a></p>
+<p><a href="https://kszi2.hu/~borbely"><strong>~borbely</strong></a></p>
 </li>
 <li>
-<p><a href="https://kszi2.hu/~fiak"><strong>fiak</strong></a></p>
+<p><a href="https://kszi2.hu/~fiak"><strong>~fiak</strong></a></p>
 </li>
 <li>
-<p><a href="https://kszi2.hu/~kolos"><strong>kolos</strong></a></p>
+<p><a href="https://kszi2.hu/~kolos"><strong>~kolos</strong></a></p>
 </li>
 </ul>
 </div>
@@ -466,7 +296,7 @@ a {
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-05-17 11:32:31 +0200
+Last updated 2023-05-17 17:25:53 +0200
 </div>
 </div>
 </body>

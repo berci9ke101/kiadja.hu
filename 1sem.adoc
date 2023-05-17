@@ -1,0 +1,33 @@
+:title: berci9ke101 - Első félév
+:doctype: book
+:favicon: ./src/favicon.ico
+:stylesheet: ./src/styles/base.css
+
+//links
+:homepage: link:./index.html
+:1sem: link:./1sem.html
+:2sem: link:./2sem.html
+:3sem: link:./3sem.html
+:gh: link:https://github.com/berci9ke101/loim
+:thomas-calc: link:./src/1sem/thomas'_calculus.pdf
+:tasi: link:https://math.bme.hu/~tasnadi/merninf_anal_1/anal1_elm.pdf
+
+[cols ="^1,^1,^1,^1",frame="none",grid="none"]
+|===
+|{homepage}[*🏠Főoldal*]
+|{1sem}[*1️⃣Első félév*]
+|{2sem}[*2️⃣Második félév*]
+|{3sem}[*3️⃣Harmadik félév*]
+|===
+
+= *Info első félév (1)*
+
+=== Kontribúció:
+
+* {gh}[*Prog1 nagyházim (github)*]
+
+=== Olvasmányok:
+
+* {thomas-calc}[*Weir, Hass, Heil - Thomas' Calculus (13. kiadás)*]
+* {tasi}[*Fritzné, Kónya, Pataki, Tasnádi - Matematika 1.*]
+

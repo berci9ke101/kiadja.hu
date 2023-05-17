@@ -3,13 +3,14 @@
 :author: Kovács Bertalan
 :authorinitials: KB
 :favicon: ./src/favicon.ico
-:stylesheet: ./styles/homepage.css
+:stylesheet: ./src/styles/base.css
 
 //links
 :homepage: link:./index.html
-:1sem: link:./sem/1sem.html
-:2sem: link:./sem/2sem.html
-:3sem: link:./sem/3sem.html
+:1sem: link:./1sem.html
+:2sem: link:./2sem.html
+:3sem: link:./3sem.html
+:ftb: link:./src/homepage/FTB_Launcher.exe
 
 [cols ="^1,^1,^1,^1",frame="none",grid="none"]
 |===
@@ -19,28 +20,27 @@
 |{3sem}[*3️⃣Harmadik félév*]
 |===
 
-= *berci9ke101*
+= berci9ke101
 
 .*"Mégis mi fér bele egy zenedobozba?"*
 ****
 ****
 
-== Életfilozófiám: "Kib@szott agilis vagyok"
+== Életfilozófiám: `"Kib@szott agilis vagyok"`
 
 '''
 
 === BME VIK - Info:
 
-*** https://example.com[*1. félév*]
-*** https://example.com[*2. félév*]
-*** https://example.com[*3. félév*]
+* {1sem}[*1. félév*]
+* {2sem}[*2. félév*]
+* {3sem}[*3. félév*]
 
 '''
 
 === Kiegészítők
 
-//TODO link ide
-* link:./src/homepage/[*Klasszikus 1.5.1-es FTB Launcher*]
+* {ftb}[*Klasszikus 1.5.1-es FTB Launcher*]
 
 '''
 
