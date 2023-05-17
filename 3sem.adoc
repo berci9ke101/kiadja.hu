@@ -1,4 +1,4 @@
-:title: Második félév
+:title: Harmadik félév
 :doctype: book
 :favicon: ./src/favicon.ico
 :stylesheet: ./src/styles/base.css
@@ -10,7 +10,8 @@
 :3sem: link:./3sem.html
 :gh: link:https://github.com/berci9ke101/spark
 :kodtech: link:./src/3sem/tomor.pdf
-:vsz: link:./src/3sem/eddigi_vizsga-elm.pdfd
+:vsz: link:./src/3sem/eddig_vizsga_elm.pdf
+:gajdos: link:https://db.bme.hu/~gajdos/Adatbazisok2019.pdf
 
 
 [cols ="^1,^1,^1,^1",frame="none",grid="none"]
@@ -21,7 +22,7 @@
 |{3sem}[*3️⃣Harmadik félév*]
 |===
 
-= *Info második félév (2)*
+= *Info harmadik félév (3)*
 
 === Kontribúciók:
 
@@ -31,4 +32,4 @@
 
 === Olvasmány:
 
-*
+* {gajdos}[*Gajdos Sándor - Adatbázisok*]
