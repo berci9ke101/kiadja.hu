@@ -1,0 +1,59 @@
+:title: berci9ke101
+:doctype: book
+:author: Kovács Bertalan
+:authorinitials: KB
+:favicon: ./src/favicon.ico
+:stylesheet: ./styles/homepage.css
+
+//links
+:homepage: link:./index.html
+:1sem: link:./sem/1sem.html
+:2sem: link:./sem/2sem.html
+:3sem: link:./sem/3sem.html
+
+[cols ="^1,^1,^1,^1",frame="none",grid="none"]
+|===
+|{homepage}[*🏠Főoldal*]
+|{1sem}[*1️⃣Első félév*]
+|{2sem}[*2️⃣Második félév*]
+|{3sem}[*3️⃣Harmadik félév*]
+|===
+
+= *berci9ke101*
+
+.*"Mégis mi fér bele egy zenedobozba?"*
+****
+****
+
+== Életfilozófiám: "Kib@szott agilis vagyok"
+
+'''
+
+=== BME VIK - Info:
+
+*** https://example.com[*1. félév*]
+*** https://example.com[*2. félév*]
+*** https://example.com[*3. félév*]
+
+'''
+
+=== Kiegészítők
+
+//TODO link ide
+* link:./src/homepage/[*Klasszikus 1.5.1-es FTB Launcher*]
+
+'''
+
+=== Kollégák
+
+* https://kszi2.hu/~bodand[*+~bodand+*]
+* https://kszi2.hu/~borbely[*+~borbely+*]
+* https://kszi2.hu/~fiak[*+~fiak+*]
+* https://kszi2.hu/~kolos[*+~kolos+*]
+
+'''
+
+=== Megjegyzés
+
+[.text-center]
+"A very important precaution for the underground chemist is to keep his mouth shut."
